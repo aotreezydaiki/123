@@ -14,7 +14,7 @@ function writeFile(filePath, data) {
 
 function w() {
   let filePath = './txt/text.txt'
-  let data = '3aDaHue2'
+  let data = '3aDaHu132313'
 
     fs.access(filePath, fs.constants.F_OK, (err) => {
     if (err) {

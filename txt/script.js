@@ -7,14 +7,14 @@ function writeFile(filePath, data) {
     if (err) {
       console.error('Ошибка:', err)
     } else {
-      console.log('Файл записан:', filePath)
+      console.log('Файл записан в:', filePath)
     }
   })
 }
 
 function w() {
   let filePath = './txt/text.txt'
-  let data = '3aDaHu132313'
+  let data = '4534543535431wefdsdfs'
 
     fs.access(filePath, fs.constants.F_OK, (err) => {
     if (err) {

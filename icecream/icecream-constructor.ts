@@ -22,4 +22,13 @@ export default class IcecreamContructor {
       }, 0)
     );
   }
+
+  printInfo(): void {
+    console.log('waffle price is', this.waffle.price);
+    console.log('toppings:');
+    this.toppings.forEach((topping) => {
+      console.log('topping:', Toppings[topping], 'price:', topping);
+    });
+    console.log('total cost:', this.totalCost());
+  }
 }

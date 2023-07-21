@@ -21,6 +21,7 @@ if (randomNumber <= 3) {
   icecreamContructor.addToping(Toppings.Berries);
 } else if (randomNumber <= 13) {
   icecreamContructor.addToping(Toppings.Chocolate);
+  icecreamContructor.addToping(Toppings.Chocolate);
   icecreamContructor.addToping(Toppings.Caramel);
 } else if (randomNumber <= 16) {
   icecreamContructor.addToping(Toppings.Chocolate);
@@ -28,6 +29,10 @@ if (randomNumber <= 3) {
 } else {
   icecreamContructor.addToping(Toppings.Berries);
   icecreamContructor.addToping(Toppings.Caramel);
+}
+
+if (randomNumber > 10) {
+  waffle.bite();
 }
 
 icecreamContructor.printInfo();
